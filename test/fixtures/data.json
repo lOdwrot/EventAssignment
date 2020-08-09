@@ -1,0 +1,10 @@
+{
+    "eventassignments": [{
+        "_id" : "5f29be4eb0aede3250fa33c5",
+        "name" : "Adam",
+        "surname" : "Smith",
+        "email" : "asmith@x.com",
+        "date" : "2020-08-11T19:59:28.876Z",
+        "__v" : 0
+    }]
+}

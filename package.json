@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -r esm",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r esm ./test/*.spec.js --delay"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "dotenv": "^8.2.0",
     "esm": "^3.2.25",
     "express": "^4.17.1",
     "express-validator": "^6.6.1",
+    "mocha": "^8.1.1",
+    "mongo-unit": "^2.0.1",
     "mongoose": "^5.9.27",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",

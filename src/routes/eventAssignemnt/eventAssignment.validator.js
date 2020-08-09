@@ -10,5 +10,5 @@ export const postValidations = [
             if(result.length) return Promise.reject('This email is already used')
         })
     }),
-    body('date').isISO8601().toDate(),
+    body('date').isISO8601().toDate()
 ]
