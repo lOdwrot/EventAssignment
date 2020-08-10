@@ -56,7 +56,7 @@ const formFields = [
     }
 ]
 
-const disabledDate = (current) => current < moment().endOf('day')
+const disabledDate = (current) => current < moment().startOf('day')
 
 const getInpurForField = ({type}) => {
     if (type === 'text') return <Input/>
